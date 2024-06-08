@@ -1,0 +1,15 @@
+info: Server started at http://localhost:3008/api/v1/ {"timestamp":"2024-06-08T14:06:54.727Z"}
+info: Connected to the database. {"timestamp":"2024-06-08T14:07:05.033Z"}
+info: Server started at http://localhost:3008/api/v1/ {"timestamp":"2024-06-08T14:08:38.698Z"}
+info: Connected to the database. {"timestamp":"2024-06-08T14:08:41.222Z"}
+info: Server started at http://localhost:3008/api/v1/ {"timestamp":"2024-06-08T14:12:18.841Z"}
+info: Connected to the database. {"timestamp":"2024-06-08T14:12:23.064Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:51:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-08T14:14:17.670Z"}

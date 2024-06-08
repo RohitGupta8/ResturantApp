@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-custom {
+  background: rgb(250, 77, 77);
+}
+
+.nav-scroll {
+  max-height: 100px;
+}
+
+.nav-links-container {
+  display: flex;
+  margin-left: 250px;
+  font-size: x-large;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.radio-buttons {
+  padding-left: 30px;
+}
+
+.main_div {
+  background: black;
+  min-height: 100vh;
+  height: auto;
+}
+
+.navbar_menu_item {
+  color: whitesmoke;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.navbar_menu_item:hover {
+  color: black;
+}
+
+.btn_toggle {
+  color: blue;
+  font-weight: 800;
+  margin: auto;
+}
+
+.logo-text {
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: cursive;
+  color: white;
+}
+
+.registrationMainDiv {
+  background: darkred;
+  display: flex;
+  align-items: center;
+  column-gap: 215px;
+  height: 100vh;
+}
+
+.signupText {
+  font-size: xxx-large;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: justify;
+  color: antiquewhite;
+}
+
+.formButton {
+  display: flex;
+  column-gap: 25px;
+  margin-top: 25px;
+}
+
+.feedbackText {
+  color: white !important;
+}
+
+.foodType{
+  color: white;
+    font-weight: bold;
+}
+
+.modalOpen{
+  color: white;
+  font-size: x-large;
+  background: #dc3545;
+}
+
+.dropDown{
+  margin-left: 30vh;
+  font-size: x-large;
+  font-weight: 600;
+}

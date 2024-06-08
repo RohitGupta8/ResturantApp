@@ -1,0 +1,142 @@
+info: ::1 - - [07/Jun/2024:06:14:47 +0000] "POST /api/v1/users/user HTTP/1.1" 500 56 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:15:48 +0000] "POST /api/v1/users/user HTTP/1.1" 500 56 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:16:21 +0000] "POST /api/v1/users/user HTTP/1.1" 201 369 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:25:08 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:25:54 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:26:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:31:32 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 368 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:53:14 +0000] "GET /api/v1/users/all HTTP/1.1" 500 52 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:55:23 +0000] "GET /api/v1/users/all HTTP/1.1" 400 56 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:56:07 +0000] "GET /api/v1/users/all HTTP/1.1" 500 52 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:56:56 +0000] "GET /api/v1/users/all HTTP/1.1" 500 52 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:58:22 +0000] "GET /api/v1/users/all HTTP/1.1" 500 52 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:06:58:49 +0000] "GET /api/v1/users HTTP/1.1" 200 687 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [07/Jun/2024:07:00:36 +0000] "GET /api/v1/users HTTP/1.1" 200 687 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:05:18:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:05:19:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:05:20:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:05:22:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:37:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:38:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:40:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:46:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:47:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:49:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:07:53:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:02:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:04:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:11:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:11:37 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:11:39 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:11:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:08:33:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:04:34 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:04:37 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:04:39 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:04:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:06:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:06:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:07:04 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:07:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:09:22:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:11:54:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:11:59:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:07:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:34:08 +0000] "POST /api/v1/users/user HTTP/1.1" 201 387 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:40:04 +0000] "POST /api/v1/users/user HTTP/1.1" 201 363 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:41:46 +0000] "POST /api/v1/users/user HTTP/1.1" 201 371 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:47:31 +0000] "POST /api/v1/users/user HTTP/1.1" 201 379 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:12:48:25 +0000] "POST /api/v1/users/user HTTP/1.1" 201 381 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:13:01:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:13:02:31 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:13:02:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:13:03:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:13:07:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Jun/2024:14:07:01 +0000] "POST /api/v1/forgot HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:07:56 +0000] "PUT /api/v1/forgot HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:08:56 +0000] "PUT /api/v1/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:09:42 +0000] "POST /api/v1/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:10:26 +0000] "GET /api/v1/users HTTP/1.1" 200 2283 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:11:05 +0000] "POST /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:11:41 +0000] "POST /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:12:59 +0000] "GET /api/v1/users/ HTTP/1.1" 200 2283 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:13:22 +0000] "GET /api/v1/users HTTP/1.1" 200 2283 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:13:42 +0000] "POST /api/v1/users/forget/ HTTP/1.1" 200 109 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:14:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:14:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:14:56 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 127 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:15:30 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 127 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:15:43 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 109 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:16:06 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 116 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [08/Jun/2024:14:16:30 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 127 "-" "PostmanRuntime/7.39.0"
+
