@@ -4,6 +4,7 @@ import { Data } from '../../Data';
 import { MainContainer } from './DishItemStyledComponent';
 import NavBar from "../NavBar/NavBar";
 import ProfilePage from "../Profile/ProfilePage";
+import ChangePasswordPage from "../ChangePassword/ChangePasswordPage";
 
 const DishItem = () => {
   const [radioValue, setRadioValue] = useState('All');
@@ -32,16 +33,20 @@ const DishItem = () => {
 
   return (
     <>
-      <NavBar setCategory={setCategory} setRadioValue={setRadioValue} radioValue={radioValue} setPage={setPage} />
-      {page === 'default' ? (<div className="main_div">
-        <MainContainer>
-          {filteredDishes.map((dish, index) => (
-            <DishesCardComponent key={index} value={dish} />
-          ))}
-        </MainContainer>
-      </div>) : (
-        <ProfilePage/>
+      <NavBar setCategory={setCategory} setRadioValue={setRadioValue} radioValue={radioValue} setPage={setPage} page={page} />
+      {page === 'default' && (
+        <div className="main_div">
+          <MainContainer>
+            {filteredDishes.map((dish, index) => (
+              <DishesCardComponent key={index} value={dish} />
+            ))}
+          </MainContainer>
+        </div>
       )}
+      
+      {page === 'profile' && <ProfilePage />}
+      
+      {page === 'change' && <ChangePasswordPage />}
       
     </>
   );

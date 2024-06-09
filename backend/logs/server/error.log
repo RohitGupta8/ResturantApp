@@ -7,3 +7,66 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-06-08T14:14:17.670Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:15:08.100Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:15:22.211Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:15:38.136Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:15:58.544Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:16:10.802Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T05:19:40.821Z"}
+error: 
+    status - 500 
+    message - Error: Incorrect Password
+    at Object.loginUser (D:\practice\backend\build\services\user.service.js:54:13)
+    at async loginUser (D:\practice\backend\build\controllers\user.controller.js:73:18) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-06-09T06:09:45.241Z"}

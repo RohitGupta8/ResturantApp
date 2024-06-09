@@ -4,7 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateUser = exports.newUser = exports.loginUser = exports.getUser = exports.getAllUsers = exports.generateToken = exports.forgotPassword = exports.deleteUser = void 0;
+exports.userUpdate = exports.updateUser = exports.newUser = exports.loginUser = exports.getUser = exports.getAllUsers = exports.generateToken = exports.forgotPassword = exports.deleteUser = void 0;
 var _user = _interopRequireDefault(require("../models/user.model"));
 var _bcrypt = _interopRequireDefault(require("bcrypt"));
 var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
@@ -81,9 +81,40 @@ const forgotPassword = async body => {
   }
   return message;
 };
+exports.forgotPassword = forgotPassword;
+const userUpdate = async body => {
+  let message;
+  const user = await _user.default.findOne({
+    email: body.email
+  });
+  if (!user) {
+    message = {
+      message: 'Email is not found.'
+    };
+  } else {
+    user.name = body.name;
+    user.dob = body.dob;
+    user.phone = body.phone;
+    user.sex = body.sex;
+    await user.save();
+    const {
+      name,
+      dob,
+      phone,
+      sex
+    } = user;
+    message = {
+      name,
+      dob,
+      phone,
+      sex
+    };
+  }
+  return message;
+};
 
 //update single user
-exports.forgotPassword = forgotPassword;
+exports.userUpdate = userUpdate;
 const updateUser = async (_id, body) => {
   const data = await _user.default.findByIdAndUpdate({
     _id

@@ -18,6 +18,9 @@ router.post('/login', userController.loginUser);
 //forgotPassword
 router.post('/forget', userController.forgotPassword);
 
+//update user data
+router.post('/userUpdate', userController.userUpdate);
+
 //route to get a single user by their user id
 router.get('/:_id', userAuth, userController.getUser);
 

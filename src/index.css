@@ -45,6 +45,10 @@ code {
   font-weight: bold;
 }
 
+.navbar_menu_item:hover, .navbar_menu_item.active {
+  color: rgb(221, 200, 9);
+}
+
 .navbar_menu_item:hover {
   color: black;
 }
@@ -88,29 +92,29 @@ code {
   color: white !important;
 }
 
-.foodType{
+.foodType {
   color: white;
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.modalOpen{
+.modalOpen {
   color: white;
   font-size: x-large;
   background: #dc3545;
 }
 
-.dropDown{
-  margin-left: 30vh;
+.dropDown {
+  margin-left: auto;
   font-size: x-large;
   font-weight: 600;
 }
 
-.logo-text:hover{
+.logo-text:hover {
   color: black;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.profileLabel{
+.profileLabel {
   color: white;
   font-size: xx-large;
 }

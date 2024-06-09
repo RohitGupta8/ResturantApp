@@ -44,18 +44,42 @@ const RegistrationForm = () => {
 
     const validate = () => {
         const newErrors = {};
-        if (!formData.name) newErrors.name = 'Name is required';
-        if (!formData.phone) newErrors.phone = 'Phone is required';
-        if (!/^\d{10}$/.test(formData.phone)) newErrors.phone = 'Phone must be a 10-digit number';
-        if (!formData.sex) newErrors.sex = 'Sex is required';
-        if (!formData.dob) newErrors.dob = 'Date of Birth is required';
-        if (!formData.email) newErrors.email = 'Email is required';
-        if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Email address is invalid';
-        if (!formData.password) newErrors.password = 'Password is required';
-        if (formData.password.length < 6) newErrors.password = 'Password must be at least 6 characters long';
-
+    
+        if (!formData.name) {
+            newErrors.name = 'Name is required';
+        } else if (formData.name.length < 6) {
+            newErrors.name = 'Name must be more than 6 characters';
+        }
+    
+        if (!formData.phone) {
+            newErrors.phone = 'Phone is required';
+        } else if (!/^\d{10}$/.test(formData.phone)) {
+            newErrors.phone = 'Phone must be a 10-digit number';
+        }
+    
+        if (!formData.sex) {
+            newErrors.sex = 'Sex is required';
+        }
+    
+        if (!formData.dob) {
+            newErrors.dob = 'Date of Birth is required';
+        }
+    
+        if (!formData.email) {
+            newErrors.email = 'Email is required';
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+            newErrors.email = 'Email address is invalid';
+        }
+    
+        if (!formData.password) {
+            newErrors.password = 'Password is required';
+        } else if (formData.password.length < 6) {
+            newErrors.password = 'Password must be at least 6 characters long';
+        }
+    
         return newErrors;
     };
+    
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -73,7 +97,7 @@ const RegistrationForm = () => {
             });
 
             if (res.status === 201) {
-                setModalMessage('Successfully registered...........');
+                setModalMessage('User Registered Successfully ');
                 resetForm();
             } else {
                 setModalMessage('Registration failed................');

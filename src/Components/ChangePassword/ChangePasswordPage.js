@@ -1,17 +1,18 @@
 import logo_image from '../../images/logo-image.png';
-import ProfileForm from './ProfileForm';
+import ChangePasswordForm from './ChangePasswordForm';
 
-const ProfilePage = () => {
+const ChangePasswordPage = () => {
+
   return (
     <>
       <div className='registrationMainDiv'>
         <div style={{marginLeft: '200px'}}>
           <img src={logo_image} alt='' height='580' width='250' />
         </div>
-        <ProfileForm />
+        <ChangePasswordForm />
       </div>
     </>
   );
 };
 
-export default ProfilePage;
+export default ChangePasswordPage;

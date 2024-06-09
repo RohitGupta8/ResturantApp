@@ -83,6 +83,18 @@ export const forgotPassword = async (req, res, next) => {
   }
 };
 
+export const userUpdate = async (req, res, next) => {
+  try {
+    const data = await UserService.userUpdate(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
 /**
  * Controller to update a user
  * @param  {object} req - request object

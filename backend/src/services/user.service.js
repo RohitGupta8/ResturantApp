@@ -57,6 +57,25 @@ export const forgotPassword = async (body) => {
 
 };
 
+export const userUpdate = async (body) => {
+  let message
+  const user = await User.findOne({email: body.email});
+  if (!user) {
+    message = {message: 'Email is not found.'};
+  } else {
+    user.name = body.name
+    user.dob = body.dob
+    user.phone = body.phone
+    user.sex = body.sex
+    await user.save();
+    const {name,dob,phone,sex} = user
+    message = {name,dob,phone,sex}
+
+  }
+  return message
+
+};
+
 //update single user
 export const updateUser = async (_id, body) => {
   const data = await User.findByIdAndUpdate(

@@ -4,7 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateUser = exports.newUser = exports.loginUser = exports.getUser = exports.getAllUsers = exports.forgotPassword = exports.deleteUser = void 0;
+exports.userUpdate = exports.updateUser = exports.newUser = exports.loginUser = exports.getUser = exports.getAllUsers = exports.forgotPassword = exports.deleteUser = void 0;
 var _httpStatusCodes = _interopRequireDefault(require("http-status-codes"));
 var UserService = _interopRequireWildcard(require("../services/user.service"));
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
@@ -92,6 +92,18 @@ const forgotPassword = async (req, res, next) => {
     next(error);
   }
 };
+exports.forgotPassword = forgotPassword;
+const userUpdate = async (req, res, next) => {
+  try {
+    const data = await UserService.userUpdate(req.body);
+    res.status(_httpStatusCodes.default.OK).json({
+      code: _httpStatusCodes.default.OK,
+      data: data
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
 /**
  * Controller to update a user
@@ -99,7 +111,7 @@ const forgotPassword = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-exports.forgotPassword = forgotPassword;
+exports.userUpdate = userUpdate;
 const updateUser = async (req, res, next) => {
   try {
     const data = await UserService.updateUser(req.params._id, req.body);
