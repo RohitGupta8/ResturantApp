@@ -41,6 +41,9 @@ const loginUser = async body => {
     const match = await _bcrypt.default.compare(body.password, check.password);
     if (match) {
       const user = {
+        name: check.name,
+        dob: check.dob,
+        sex: check.sex,
         email: check.email,
         phone: check.phone,
         id: check._id,

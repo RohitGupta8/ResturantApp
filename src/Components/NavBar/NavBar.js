@@ -1,7 +1,9 @@
 import { Container, Nav, Navbar, Form, Button, ButtonGroup, ToggleButton,NavDropdown } from 'react-bootstrap';
 import logo from '../../images/logo.png';
+import { useAuth } from '../../AuthProvider';
 
-const NavBar = ({ setCategory, setRadioValue, radioValue }) => {
+const NavBar = ({ setCategory, setRadioValue, radioValue, setPage }) => {
+  const { userData } = useAuth();
   const radios = [
     { name: 'All', value: 'All',variant:'outline-warning' },
     { name: 'Veg', value: 'veg',variant:'outline-success' },
@@ -11,7 +13,7 @@ const NavBar = ({ setCategory, setRadioValue, radioValue }) => {
   return (
     <Navbar expand="lg" className="navbar-custom" sticky="top">
       <Container fluid>
-        <Navbar >
+        <Navbar onClick={()=> setPage('default')} className='titleHover'>
           <img src={logo} alt='' width="30" height="40" style={{ marginRight: '15px' }} /> 
           <span className='logo-text'> Tim Tomatto</span>
         </Navbar>
@@ -46,13 +48,12 @@ const NavBar = ({ setCategory, setRadioValue, radioValue }) => {
             <div className='dropDown'>       
             <NavDropdown
               id="nav-dropdown-dark-example"
-              title="Dropdown"
+              title={userData.name}
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>              
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown.Item  onClick={()=> setPage('profile')}>Profile</NavDropdown.Item>
+              <NavDropdown.Item >Change Password</NavDropdown.Item>
+              <NavDropdown.Item >Logout</NavDropdown.Item> 
             </NavDropdown>
          
           </div>

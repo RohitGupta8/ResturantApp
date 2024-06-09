@@ -70,7 +70,7 @@ code {
   height: 100vh;
 }
 
-.signupText {
+.formHeaderText {
   font-size: xxx-large;
   font-style: oblique;
   font-weight: bolder;
@@ -103,4 +103,14 @@ code {
   margin-left: 30vh;
   font-size: x-large;
   font-weight: 600;
+}
+
+.logo-text:hover{
+  color: black;
+  cursor:pointer;
+}
+
+.profileLabel{
+  color: white;
+  font-size: xx-large;
 }

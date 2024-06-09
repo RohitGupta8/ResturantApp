@@ -94,7 +94,7 @@ const RegistrationForm = () => {
     return (
         <center>
             <MyFormContainer>
-                <div className='signupText'>Sign up</div>
+                <div className='formHeaderText'>Sign up</div>
                 <Form className="p-3" onSubmit={handleSubmit}>
                     <FloatingLabel controlId="name" label="Full Name" className="mb-3">
                         <Form.Control

@@ -2,8 +2,11 @@ import { useState } from 'react';
 import { Button, Form, FloatingLabel } from 'react-bootstrap';
 import { MyFormContainer } from './FormStyledComponent';
 import { BACKEND_URL } from '../../Constant';
+import { jwtDecode } from 'jwt-decode';
+import { useAuth } from '../../AuthProvider';
 
 const LoginForm = ({ setLogin }) => {
+    const { setUserData } = useAuth();
     const [formData, setFormData] = useState({
         email: '',
         password: ''
@@ -82,7 +85,9 @@ const LoginForm = ({ setLogin }) => {
                 console.log('Response Data:', data);
 
                 if (data.token) {
-                    console.log('Token:', data.token);
+                    const userData = jwtDecode(data.token)
+                    setUserData(userData)
+                    console.log('data:', userData);
                     resetForm();
                     setLogin(true);
                 } else {
@@ -97,7 +102,7 @@ const LoginForm = ({ setLogin }) => {
     return (
         <center>
             <MyFormContainer>
-                <div className='signupText'>Sign In</div>
+                <div className='formHeaderText'>Sign In</div>
                 <Form className="p-3" onSubmit={handleSubmit}>
 
                     <FloatingLabel controlId="email" label="Email address" className="mb-3">
